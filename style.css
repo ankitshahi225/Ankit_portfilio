@@ -4,16 +4,15 @@
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,whitesmoke,lightblue,#7d3de3);
+	background-image: linear-gradient(to right,#a2cae8,#7dbae8,#4781ad);
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	height: 70px;
 	width: 100%;
 	z-index: 5;
 }
 .navmenu{
-	color: #f0efb9;
+	color: white;
 	font-size:20px;
 	font-weight: bolder;
 	transition-duration: 0.5s;
@@ -24,18 +23,19 @@
 }
 .myname{
 	font-size: 30px;
+/*	as*/
 	font-family: Arial Black;
-	color: #d03de3;
-	text-shadow: 0px 0px 3px black;
+	color: royalblue;
+	text-shadow: 0px 0px 3px white;
 	font-variant: small-caps;
 }
 .sect
 {
 /*	border: 2px solid black;*/
 	height: 500px;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 .sect div
 {
@@ -45,27 +45,22 @@ html{
 	scroll-behavior: smooth;
 }
 .home{
-/*	background-color: lightblue;*/
-height: 600px;
+	margin-top: 100px;
+	height: 400px;
 }
 .homename{
-	color: blueviolet;
 	font-size: 80px;
-	font-family: Times New Roman;
 }
 #designation
 {
 	font-size: 50px;
-/*	background-image: linear-gradient(to right,whitesmoke,red,blueviolet,red);*/
-	color: #730808;
+	color: orangered;
 	font-variant: small-caps;
 	font-weight: bolder;
-	font-family: Copperplate Gothic;
 }
 .home div
 {
 	font-weight: bolder;
-
 }
 .about{
 	background-color: #dae0da;
@@ -79,7 +74,7 @@ height: 600px;
 {
 	font-size: 25px;
 	text-align: justify;
-	text-indent: 15%;
+	text-indent: 20%;
 	color: grey;
 }
 .section_head
@@ -107,6 +102,11 @@ height: 600px;
 	font-size: 30px;
 	color: red;
 }
+.icon_img:hover{
+   transform: scale(1.4);
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px royalblue;  
+}
 .card-text
 {
 	font-size: 20px ;
@@ -118,6 +118,7 @@ height: 600px;
 	transition-duration: 1s;
 }
 .card:hover{
+	border-radius: 20px;
 	box-shadow: 0 0 20px black;
 }
 .projects{
