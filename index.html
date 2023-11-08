@@ -9,6 +9,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 	<!-- External CSS link below -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <!-- link from aos github -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Ankit Portfolio</title>
 </head>
 <body>
@@ -59,7 +61,7 @@
               <td width="40%" align="center"><img class="myimg" src="about.jpg" height="200px"></td>
               <td align="center" valign="top">
                   <h2 class="section_head">About</h2>
-                  <p class="cobj">Seeking the job role of Full Stack Java Developer where I can apply my Knowledge & expriences gained from past projects while working on new challenges & task assigned by the team leader or supervior</p>
+                  <p class="cobj">Seeking the job role of Full Stack Java Developer where I can apply my Knowledge & expriences gained from past projects while working on new challenges & task assigned by the team leader or supervior.</p>
 
               </td>
             </tr>
@@ -67,14 +69,74 @@
         </div>
     </div>
     <div class="skills sect" id="skills_sec">
-      <div>skills sections</div> 
+        <div class="skill_heading" align="center">
+          <h1 class="section_head" >Skills</h1>
+          <table  width="80%" height="300px" >
+              <tr class="skillset">
+                <td valign="top">
+                  <ul type="none">
+                    <li><img src="https://e7.pngegg.com/pngimages/509/412/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-table-table-furniture-text-thumbnail.png" height="30px">  Oracle SQl</li>
+                    <li><img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png" height="30px"> HTML</li>
+                    <li><img src="https://brandslogos.com/wp-content/uploads/images/large/css-logo.png" height="30px"> CSS</li>
+                    <li>Bootstrap </li>
+                    <li>JavaScript</li>
+                  </ul>
+                </td>
+                <td valign="top">
+                  <ul type="none">
+                    <li>React JS</li>
+                  <li>XML</li>
+                  <li>JSON</li>
+                  <li>MongoDB</li>
+                  </ul>
+                </td>
+              </tr>
+          </table>
+        </div>
     </div>
     <div class="projects sect" id="projects_sec">
-      <div>projects sections</div> 
-    </div>
+      <div class="project" align="center">
+        <h1  class="section_head" >Projects</h1>
+        <div class="project_cards">
+                              <div class="card-deck">
+              <div class="card" data-aos="slide-right">
+                <img src="https://seeklogo.com/images/E/e-commerce-concept-logo-5146F23CC5-seeklogo.com.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">E-Commerce</h5>
+                  <p class="card-text">An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. </p>
+                </div>
+              </div>
+              <div class="card" data-aos="slide-down">
+                <img src="https://png.pngtree.com/png-vector/20211120/ourmid/pngtree-university-logo-png-image_4037518.png" class="card-img-top" alt="..." height="300px">
+                <div class="card-body">
+                  <h5 class="card-title">University Website</h5>
+                  <p class="card-text">A university is an institution of higher education, usually comprising a college of liberal arts and sciences and graduate and professional schools and having the authority to confer degrees in various fields of study.</p>
+                  
+                </div>
+              </div>
+              <div class="card" data-aos="slide-left">
+                <img src="https://img.freepik.com/free-vector/sudoku-word-logo-design_1308-114424.jpg" class="card-img-top" alt="..." height="250px" style="padding: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title">Sudoku Game</h5>
+                  <p class="card-text">Sudoku is defined by Merriam-Webster as a 9-by-9 grid puzzle in which the grid is divided into 3-by-3 boxes. Every row, column and box must contain the numbers one through nine, no repeats.</p>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- project cards ends here -->
     <div class="contact sect" id="contact_sec">
       <div>contact sections</div> 
     </div>
 	</div>
+	 <!-- aos script tag -->
+  <div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+       duration:1500
+    });
+  </script>
+  </div>
 </body>
 </html>
