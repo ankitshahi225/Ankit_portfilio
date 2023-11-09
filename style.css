@@ -8,6 +8,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	height: 70px;
 	width: 100%;
 	z-index: 5;
 }
@@ -74,7 +75,7 @@ html{
 {
 	font-size: 25px;
 	text-align: justify;
-	text-indent: 20%;
+	text-indent: 10%;
 	color: grey;
 }
 .section_head
@@ -123,4 +124,32 @@ html{
 }
 .projects{
 	height: 600px;
+}
+.con_details{
+	color: #3264a8;
+	font-size: 30px;
+	font-weight: bolder;
+}
+/*.con_tab_ul li{
+	color: black !important;
+}
+*/.cnt_form{
+	padding: 15px;
+	font-size: 15px;
+	color: black;
+}
+.form-group{
+	font-size: 25px !important;
+	font-weight: bolder;
+}
+.contact{
+	background-color: #dae0da;
+}
+.footer{
+	background-color: grey;
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
 }
